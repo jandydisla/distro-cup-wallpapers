@@ -35,7 +35,7 @@ Bring some warm, cozy art to your workstation. **Distro Coffee** is a curated co
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/distro-coffee.git](https://github.com/your-username/distro-coffee.git)
+git clone [https://github.com/jandydisla/distro-coffee.git](https://github.com/your-username/distro-coffee.git)
 cd distro-coffee
 
 # Set your favorite wallpaper using swww
