@@ -1,8 +1,8 @@
 # ☕ Distro Coffee
 
-> **Brew your desktop with animated, Linux-themed coffee wallpapers.**
+> **Brew your desktop with Linux-themed coffee cartoon wallpapers.**
 
-Bring some warmth to your workstation. **Distro Coffee** is a curated collection of high-quality, animated (and static) wallpapers featuring cozy cups of coffee styled around your favorite Linux distributions. Whether you rock Arch, Debian, Fedora, or CachyOS, we have a fresh pot brewing for you.
+Bring some warm, cozy art to your workstation. **Distro Coffee** is a curated collection of high-quality cartoon wallpapers featuring stylized coffee mugs themed around your favorite Linux distributions. Whether you rock Arch, Debian, Fedora, or CachyOS, we have a fresh cup drawn for you.
 
 ---
 
@@ -12,7 +12,7 @@ Bring some warmth to your workstation. **Distro Coffee** is a curated collection
   <img src="https://via.placeholder.com/800x450.png?text=Distro+Coffee+Preview" alt="Distro Coffee Showcase" width="100%" />
 </div>
 
-> *Live wallpapers work seamlessly with **KDE Plasma (Smart Video Wallpaper)**, **Hyprland (mpvpaper / swww)**, **Niri**, **Komorebi**, and **Wallpaper Engine**.*
+> *High-resolution vector & raster cartoon wallpapers crafted for Linux desktop ricing and custom setups.*
 
 ---
 
@@ -20,23 +20,23 @@ Bring some warmth to your workstation. **Distro Coffee** is a curated collection
 
 | Blend | Theme Description | Format |
 | :--- | :--- | :--- |
-| 🏹 **Arch Roast** | Minimalist dark roast with glowing cyan steam. | `.mp4` / `.webp` / `.png` |
-| 🌀 **Debian Espresso** | Deep red swirl latte art served in a classic ceramic mug. | `.mp4` / `.webp` / `.png` |
-| 🎩 **Fedora Cappuccino** | Smooth blue foam layers with clean, modern aesthetics. | `.mp4` / `.webp` / `.png` |
-| ⚡ **CachyOS Cold Brew** | High-performance, ultra-smooth animated dark aesthetics. | `.mp4` / `.jpg` |
-| 🟢 **Mint Matcha** | Relaxing, soft green tones for cozy workspace setups. | `.mp4` / `.png` |
-| 🍊 **Ubuntu Steam** | Warm aubergine and vibrant orange roast vibes. | `.mp4` / `.png` |
+| 🏹 **Arch Roast** | Minimalist dark roast mug with glowing cyan steam and cute vector art. | `.png` / `.svg` |
+| 🌀 **Debian Espresso** | Deep red swirl latte art served in a classic ceramic cartoon mug. | `.png` / `.svg` |
+| 🎩 **Fedora Cappuccino** | Smooth blue foam layers with clean, modern 2D illustrations. | `.png` / `.svg` |
+| ⚡ **CachyOS Cold Brew** | High-energy, ultra-smooth dark anime/cartoon aesthetic. | `.png` / `.jpg` |
+| 🟢 **Mint Matcha** | Relaxing, soft green cozy illustrations for clean workspace setups. | `.png` / `.svg` |
+| 🍊 **Ubuntu Steam** | Playful aubergine and vibrant orange roast cartoon vibes. | `.png` / `.svg` |
 
 ---
 
 ## 🚀 Quick Setup
 
-### 🐧 Linux (Hyprland / Wayland via `mpvpaper`)
+### 🐧 Linux (Hyprland / Wayland via `swww` or `hyprpaper`)
 
 ```bash
 # Clone the repository
 git clone [https://github.com/your-username/distro-coffee.git](https://github.com/your-username/distro-coffee.git)
 cd distro-coffee
 
-# Run a video wallpaper on your output (e.g., eDP-1)
-mpvpaper -o "no-audio loop" eDP-1 wallpapers/arch/arch-roast-4k.mp4
+# Set your favorite wallpaper using swww
+swww img wallpapers/arch/arch-roast-4k.png
